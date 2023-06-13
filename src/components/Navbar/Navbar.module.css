@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+    height: 72px;
+}
+.loogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoo{
+    cursor: pointer;
+}
+.nav_items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 24px;
+    padding: 0;
+    
+}
+
+li{
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login_btn{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 75px;
+    height: 31px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+    cursor: pointer;
+}
